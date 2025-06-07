@@ -1,10 +1,9 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
-import { Task, TaskService } from '../../services/task.service';
+import { Task, TaskService } from './task.service';
 
 @Component({
   selector: 'app-task-list',
-  templateUrl: './task-list.component.html',
-  styleUrls: ['./task-list.component.scss']
+  templateUrl: './task-list.component.html'
 })
 export class TaskListComponent implements OnInit, AfterViewInit {
   tasks: Task[] = [];
