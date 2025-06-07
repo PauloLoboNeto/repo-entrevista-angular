@@ -8,6 +8,7 @@
 - As pastas estão desorganizadas, é preciso organizar;
 - Há um problema de perfomance num script inicial que trava a inicialização inicial, mas não é obrigatório no momento de inicialização, podendo ser carregado posteriormente.
 - Utilize os métodos mais atuais do framework angular
+- Documente o projeto
 
 # Itens de design de arquitetura:
 - Esse front é utilizado por milhões de clientes em diversos países.
