@@ -10,8 +10,7 @@
 - Documente o projeto
 
 # Itens de design de arquitetura:
-- Esse front é utilizado por milhões de clientes em diversos países.
-- O front não exige dinamismo na interface em runtime; Além disso, esse front também é muito acesso por dispositivos móveis. Qual tipo de estratégia de renderização você utilizaria para melhorar a performance, principalmente para cliente com baixa conexão?
+- Esse front é utilizado por milhões de clientes em diversos países e também não exige dinamismo na interface em runtime. Ou seja, toda o front pode ser construido em buildtime. Além disso, esse front também é muito acessado por dispositivos móveis. Qual tipo de estratégia de renderização você utilizaria para a construcao do front, pensando na performance, principalmente para clientes com baixa conexão?
 - A empresa está avaliando se continua utilizando o angular ou muda pra uma nova tecnologia e te pediu uma avaliação. Você precisa avaliar de acordo com os critérios que você mesmo definir e deverá apresentar sua escolha final.
 
 # Opcional
